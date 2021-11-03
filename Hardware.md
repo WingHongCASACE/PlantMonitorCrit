@@ -2,7 +2,7 @@
 ## Components 
 HUZZAH ESP8266 * 1  
 DHT22 temperature / humidity sensor * 1  
-BC547 Transistor * 1
+BC547 Transistor * 1  
 Resistor: 100 ohm * 2; 10K ohm * 2; 200 (220) ohm * 1  
 Nails * 2
 
