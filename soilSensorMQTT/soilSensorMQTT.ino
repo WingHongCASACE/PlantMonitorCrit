@@ -230,7 +230,7 @@ void reconnect() {
     clientId += String(random(0xffff), HEX);
     
     // Attempt to connect with clientID, username and password
-    if (client.connect(clientId.c_str(), mqttuser, mqttpass)) {
+    if (client.connect(clientId.c_str(), mqttuser, mqttpass)) { //c_str() Converts the contents of a String as a C-style, null-terminated string
       Serial.println("connected");
       // ... and resubscribe
       client.subscribe("student/CASA0014/plant/ucfnwho/inTopic");  //student code changed here
