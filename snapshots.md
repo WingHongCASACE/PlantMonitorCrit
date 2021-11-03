@@ -1,4 +1,4 @@
-**This page contains snapshots of Arduino serial monitor/ plotter, as well as MQTT explorer information at different steps of the workshop
+**This page contains snapshots of Arduino serial monitor/ plotter, as well as MQTT explorer information at different steps of the workshop**
 
 # Testing MQTT connection
 #### Notice the message was changed from "Hello World # i++" to another statement with looping value for recognizition.
