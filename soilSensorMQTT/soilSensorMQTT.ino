@@ -186,19 +186,19 @@ void sendMQTT() {
   snprintf (msg, 50, "%.1f", Temperature);
   Serial.print("Publish message for t: ");
   Serial.println(msg);
-  client.publish("student/CASA0014/plant/ucfnwho/temperature", msg); //changed the student code here
+  client.publish("student/CA------/plant/uc------/temperature", msg); //changed the student code here
 
   Humidity = dht.readHumidity(); // Gets the values of the humidity
   snprintf (msg, 50, "%.0f", Humidity);
   Serial.print("Publish message for h: ");
   Serial.println(msg);
-  client.publish("student/CASA0014/plant/ucfnwho/humidity", msg);  //student code changed
+  client.publish("student/CA------/plant/uc------/humidity", msg);  //student code changed
 
   //Moisture = analogRead(soilPin);   // moisture read by readMoisture function
   snprintf (msg, 50, "%.0i", Moisture);
   Serial.print("Publish message for m: ");
   Serial.println(msg);
-  client.publish("student/CASA0014/plant/ucfnwho/moisture", msg);   //student code changed
+  client.publish("student/CA-------/plant/uc------/moisture", msg);   //student code changed
 
 }
 
@@ -233,7 +233,7 @@ void reconnect() {
     if (client.connect(clientId.c_str(), mqttuser, mqttpass)) { //c_str() Converts the contents of a String as a C-style, null-terminated string
       Serial.println("connected");
       // ... and resubscribe
-      client.subscribe("student/CASA0014/plant/ucfnwho/inTopic");  //student code changed here
+      client.subscribe("student/CA-------/plant/uc--------/inTopic");  //student code changed here
     } else {
       Serial.print("failed, rc=");
       Serial.print(client.state());
