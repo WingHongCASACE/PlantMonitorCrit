@@ -12,7 +12,7 @@ Nails * 2
 </p>
 This sketch from workshop Plant Monitor-<a href = "https://workshops.cetools.org/codelabs/CASA0014-2-Plant-Monitor/index.html?index=..%2F..index#7">8.Sensing Soil</a> was applied for circuit building.
 
-## Picture 
+## Pictures
 <p align='center'>
 <img src="https://user-images.githubusercontent.com/91855312/139998483-ed0527bd-6212-41af-bd97-3fabe0da2247.jpg" width=45%>&nbsp
 <img src="https://user-images.githubusercontent.com/91855312/139999011-8332f892-b2c6-48ce-920a-72622532555a.jpg" width=45%>
