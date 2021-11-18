@@ -1,5 +1,6 @@
 # *Pilea peperomioides* 
 ### (Also called: Chinese Money Plant/ missionary plant)
+![20211117_134644](https://user-images.githubusercontent.com/91855312/142352342-abea3191-3c27-477c-88f9-1e7e9fd531ff.jpg)
 ## Bontanical information (from [RHS](https://www.rhs.org.uk/plants/13015/pilea-peperomioides/details))
 [Award of Garden Merit (AGM)](https://www.rhs.org.uk/plants/trials-awards/award-of-garden-merit) from the Royal Horticultural Society: a proof that it performs reliably in the garden.
 #### How to grow
